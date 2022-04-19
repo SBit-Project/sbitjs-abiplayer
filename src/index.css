@@ -1,0 +1,21 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body, #root {
+  background: #f0f0f0;
+  font-family: "Lato";
+}
+
+h1 {
+  text-align: center;
+  margin-top: 200px;
+  font-weight: 300;
+}
+
+.filedropper {
+  width: 300px;
+  height: 300px;
+  background: red;
+}
