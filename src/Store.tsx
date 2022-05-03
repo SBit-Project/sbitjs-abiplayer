@@ -12,7 +12,7 @@ import {
   IRPCGetTransactionResult,
 
   IRPCSendToContractResult,
-  SBitRPC,
+  SbitRPC,
 } from "sbitjs"
 
 import { IContractsInventory } from "./types"
@@ -45,8 +45,8 @@ async function readContractsInventory(file: File): Promise<IContractsInventory> 
 }
 
 // FIXME make this user configurable
-const rpc = new SBitRPC("http://localhost:9888")
-// const rpc = new SBitRPC("http://localhost:13889")
+const rpc = new SbitRPC("http://localhost:9888")
+// const rpc = new SbitRPC("http://localhost:13889")
 
 export interface ICallLog {
   type: "call"
