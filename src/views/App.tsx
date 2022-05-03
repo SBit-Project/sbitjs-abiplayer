@@ -1,4 +1,4 @@
-import { Contract, IContractInfo, SBitRPC } from "sbitjs"
+import { Contract, IContractInfo, SbitRPC } from "sbitjs"
 import * as React from "react"
 
 const css = require("./App.css")
